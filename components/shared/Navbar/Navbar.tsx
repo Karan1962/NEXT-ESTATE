@@ -8,7 +8,7 @@ import { SignedIn, UserButton, SignedOut, SignInButton } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-evenly p-3 items-center bg-transparent m-auto max-w-7xl ">
+    <nav className="flex justify-between py-3 px-1 items-center bg-transparent m-auto max-w-6xl ">
       <div>
         <Link
           href="/"
