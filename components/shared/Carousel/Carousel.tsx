@@ -5,6 +5,7 @@ import { A11y, Navigation, Pagination, Scrollbar } from "swiper/modules";
 import "swiper/css/bundle";
 import { carousalData } from "@/constants/Carousal";
 import Link from "next/link";
+import Image from "next/image";
 
 export default () => {
   SwiperCore.use([Navigation]);
@@ -13,13 +14,13 @@ export default () => {
       {carousalData.map((listing) => (
         <SwiperSlide key={listing.id}>
           <Link href={"#"}>
-            <div
-              className="h-[550px]"
-              style={{
-                background: `url(${listing.imgUrl}) center no-repeat`,
-                backgroundSize: "cover",
-              }}
-            ></div>
+            <Image
+              alt="carousal"
+              src={listing.imgUrl}
+              width={1280}
+              height={500}
+              className="w-100 max-h-[550px] object-cover"
+            />
           </Link>
         </SwiperSlide>
       ))}
