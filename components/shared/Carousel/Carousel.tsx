@@ -13,15 +13,15 @@ export default () => {
     <Swiper navigation className="max-w-7xl">
       {carousalData.map((listing) => (
         <SwiperSlide key={listing.id}>
-          <Link href={"#"}>
+          <div>
             <Image
               alt="carousal"
               src={listing.imgUrl}
               width={1280}
               height={500}
-              className="w-100 max-h-[550px] object-cover"
+              className="w-100 h-[80vh] max-sm:max-h-[500px] object-cover"
             />
-          </Link>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>

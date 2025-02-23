@@ -16,7 +16,7 @@ const Footer: FC = () => {
         {/* Brand Info */}
         <div>
           <h2 className="text-xl font-bold text-white dark:text-gray-100">
-            YourBrand
+            KaranEstate
           </h2>
           <p className="text-sm mt-2 text-gray-400 dark:text-gray-500">
             Discover the best real estate deals with us. Your dream home is just
@@ -105,7 +105,7 @@ const Footer: FC = () => {
               href="mailto:support@yourbrand.com"
               className="hover:text-blue-400 dark:hover:text-blue-500"
             >
-              support@yourbrand.com
+              karansawan5050@gmail.com
             </Link>
           </p>
           <p>
@@ -114,7 +114,7 @@ const Footer: FC = () => {
               href="tel:+1234567890"
               className="hover:text-blue-400 dark:hover:text-blue-500"
             >
-              +1 234 567 890
+              1234567890
             </Link>
           </p>
         </div>
