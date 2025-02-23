@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const Theme = () => {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   const [mounted, setMounted] = React.useState(false);
 

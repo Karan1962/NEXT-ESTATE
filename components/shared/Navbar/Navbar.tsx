@@ -64,11 +64,12 @@ const Navbar = () => {
             }}
           />
         </SignedIn>
-        <div className="min-w-fit">
-          <SignedOut>
+
+        <SignedOut>
+          <div className="min-w-fit">
             <SignInButton />
-          </SignedOut>
-        </div>
+          </div>
+        </SignedOut>
 
         {/* Mobile Menu */}
         <div className="sm:hidden">

@@ -3,7 +3,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="w-full ">
-      <div className="max-w-6xl m-auto py-10 px-1">
+      <div className="max-w-6xl m-auto py-10 px-8">
         <h1 className="text-6xl text-[rgb(51 65 85)] font-bold">
           Find your next
           <span className="text-[#A3A3A3]"> perfect </span>
