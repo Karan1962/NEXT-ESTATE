@@ -2,7 +2,7 @@ export const recentRent = [
   {
     id: 1,
     title: "Downtown Cozy Apartment",
-    imgUrl: "/assets/images/P_01.jpg",
+    imgUrl: "/P_01.jpg",
     desc: "Cozy 2-bedroom apartment in the heart of downtown with a modern kitchen and spacious living room.",
     location: "New York, NY",
     Beds: 2,
@@ -12,7 +12,7 @@ export const recentRent = [
   {
     id: 2,
     title: "Luxury City Condo",
-    imgUrl: "/assets/images/P_02.jpg",
+    imgUrl: "/P_02.jpg",
     desc: "Luxury condo with breathtaking city views, high-end finishes, and access to exclusive amenities.",
     location: "Los Angeles, CA",
     Beds: 3,
@@ -22,7 +22,7 @@ export const recentRent = [
   {
     id: 3,
     title: "Spacious Family Home",
-    imgUrl: "/assets/images/P_03.jpg",
+    imgUrl: "/P_03.jpg",
     desc: "Spacious family home with a large backyard, perfect for gatherings and relaxation.",
     location: "Austin, TX",
     Beds: 4,
@@ -32,7 +32,7 @@ export const recentRent = [
   {
     id: 4,
     title: "Modern Smart Studio",
-    imgUrl: "/assets/images/P_04.jpg",
+    imgUrl: "/P_04.jpg",
     desc: "Modern studio apartment with smart home features and easy access to public transport.",
     location: "Chicago, IL",
     Beds: 1,
@@ -45,7 +45,7 @@ export const recentOffers = [
   {
     id: 1,
     title: "Charming Home Discount",
-    imgUrl: "/assets/images/P_05.jpg",
+    imgUrl: "/P_05.jpg",
     desc: "Limited-time offer: Buy this charming home and get a 5% discount on closing costs!",
     location: "San Francisco, CA",
     Beds: 3,
@@ -55,7 +55,7 @@ export const recentOffers = [
   {
     id: 2,
     title: "Beachside Villa Deal",
-    imgUrl: "/assets/images/P_06.jpg",
+    imgUrl: "/P_06.jpg",
     desc: "Special deal on this beachside villa—free furnishing package included!",
     location: "Miami, FL",
     Beds: 5,
@@ -65,7 +65,7 @@ export const recentOffers = [
   {
     id: 3,
     title: "Luxury Penthouse Offer",
-    imgUrl: "/assets/images/P_07.jpg",
+    imgUrl: "/P_07.jpg",
     desc: "Exclusive listing: Get a luxury penthouse with a complimentary car garage.",
     location: "Seattle, WA",
     Beds: 4,
@@ -75,7 +75,7 @@ export const recentOffers = [
   {
     id: 4,
     title: "New Townhouse Pre-Launch",
-    imgUrl: "/assets/images/P_08.jpg",
+    imgUrl: "/P_08.jpg",
     desc: "Hot deal! Get a newly built townhouse with a 10% discount on pre-launch bookings.",
     location: "Denver, CO",
     Beds: 3,
@@ -88,7 +88,7 @@ export const recentSale = [
   {
     id: 1,
     title: "Scenic Country Home",
-    imgUrl: "/assets/images/P_09.jpg",
+    imgUrl: "/P_09.jpg",
     desc: "Beautiful country home with stunning landscape views and a private garden.",
     location: "Nashville, TN",
     Beds: 4,
@@ -98,7 +98,7 @@ export const recentSale = [
   {
     id: 2,
     title: "Urban Loft Apartment",
-    imgUrl: "/assets/images/P_10.jpg",
+    imgUrl: "/P_10.jpg",
     desc: "Modern loft-style apartment in a prime location, ideal for urban living.",
     location: "Boston, MA",
     Beds: 2,
@@ -108,7 +108,7 @@ export const recentSale = [
   {
     id: 3,
     title: "Luxury Beverly Hills Mansion",
-    imgUrl: "/assets/images/P_11.jpg",
+    imgUrl: "/P_11.jpg",
     desc: "Luxury mansion with a private pool, theater, and state-of-the-art security.",
     location: "Beverly Hills, CA",
     Beds: 6,
@@ -118,7 +118,7 @@ export const recentSale = [
   {
     id: 4,
     title: "Charming Portland Bungalow",
-    imgUrl: "/assets/images/P_12.jpg",
+    imgUrl: "/P_12.jpg",
     desc: "Charming bungalow in a quiet neighborhood, perfect for first-time homebuyers.",
     location: "Portland, OR",
     Beds: 3,
