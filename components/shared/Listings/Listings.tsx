@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaBed, FaBath, FaMapMarkerAlt } from "react-icons/fa";
@@ -51,9 +52,11 @@ const Listings: React.FC<ListingsProps> = ({
           >
             {/* Image with Hover Effect */}
             <div className="overflow-hidden">
-              <img
+              <Image
                 src={item.imgUrl}
                 alt={item.title}
+                width={600}
+                height={600}
                 className="block w-full h-52 object-cover rounded-t-lg 
                   hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer"
               />
